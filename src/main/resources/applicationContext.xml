@@ -13,6 +13,6 @@
 
     <bean id="musicPlayer"
           class="by.grinuk.springcourse.MusicPlayer">
-        <constructor-arg ref="musicBean"></constructor-arg>
+        <property name="music" ref="musicBean"></property>
     </bean>
 </beans>
