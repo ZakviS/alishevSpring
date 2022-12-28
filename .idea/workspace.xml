@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="1 lesson" />
+    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="1 lesson">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,10 +45,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "92c1807ac3d32d113080c270ef8f9562"
+    "spring.configuration.checksum": "92c1807ac3d32d113080c270ef8f9562",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +66,7 @@
       <updated>1671730169800</updated>
       <workItem from="1671730171141" duration="771000" />
       <workItem from="1671730955279" duration="993000" />
+      <workItem from="1672232347384" duration="1527000" />
     </task>
     <task id="LOCAL-00001" summary="1 lesson">
       <created>1671731380440</created>
