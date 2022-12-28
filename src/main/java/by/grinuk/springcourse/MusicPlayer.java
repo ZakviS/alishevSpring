@@ -6,7 +6,7 @@ public class MusicPlayer {
         this.music=music;
     }
 
-    public  void playMusic(){
+    public void playMusic(){
         System.out.println("Playing " + music.getSong());
     }
 }
