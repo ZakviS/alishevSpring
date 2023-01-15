@@ -20,7 +20,8 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="by.grinuk.springcourse.MusicPlayer">
+          class="by.grinuk.springcourse.MusicPlayer"
+          scope="prototype">
         <property name="musicList" >
             <list>
                 <ref bean="musicBean1"/>
@@ -29,7 +30,7 @@
             </list>
         </property>
 
-        <property name="name" value="${musicPlayers.name}"></property>
+        <property name="name" value="${musicPlayer.name}"></property>
         <property name="volume" value="${musicPlayer.volume}"></property>
     </bean>
 </beans>
