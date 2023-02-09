@@ -2,18 +2,19 @@ package by.grinuk.springcourse;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.nio.channels.ClosedSelectorException;
+
 public class TestSpring {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml"
         );
 
-        //Music music = context.getBean("musicBean",Music.class);
-        //MusicPlayer musicPlayer = new MusicPlayer(music);
 
+        //тут про область видимости бинов и методе prototype
         MusicPlayer firstMusicPlayer = context.getBean("musicPlayer",MusicPlayer.class);
         MusicPlayer secondMusicPlayer = context.getBean("musicPlayer",MusicPlayer.class);
-        //firstMusicPlayer.playMusic();
+
 
         System.out.println(firstMusicPlayer.getVolume());
         System.out.println(secondMusicPlayer.getVolume());
@@ -22,6 +23,12 @@ public class TestSpring {
 
         System.out.println(firstMusicPlayer.getVolume());
         System.out.println(secondMusicPlayer.getVolume());
+        System.out.println(secondMusicPlayer.getName());
+
+
+        //тут про Жизненный цикл бина
+        ClassicalMusic classicalMusic = context.getBean("musicBean2",ClassicalMusic.class);
+        System.out.println(classicalMusic.getSong());
         context.close();
     }
 }

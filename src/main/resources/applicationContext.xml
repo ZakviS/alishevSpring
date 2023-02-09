@@ -9,16 +9,21 @@
 
     <context:property-placeholder location="musicPlayer.properties"></context:property-placeholder>
 
+    <!--тут про Жизненный цикл бина(init and destroy (так же существует метод создания factory)) и метод синглтон-->
     <bean id="musicBean1"
           class="by.grinuk.springcourse.RockMusic">
     </bean>
     <bean id="musicBean2"
-          class="by.grinuk.springcourse.ClassicalMusic">
+          class="by.grinuk.springcourse.ClassicalMusic"
+    init-method="doMyInit"
+    destroy-method="doMyDestroy">
     </bean>
     <bean id="musicBean3"
           class="by.grinuk.springcourse.RapMusic">
     </bean>
 
+
+    <!--тут про область видимости бинов и методе prototype-->
     <bean id="musicPlayer"
           class="by.grinuk.springcourse.MusicPlayer"
           scope="prototype">
