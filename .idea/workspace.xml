@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="9 lesson">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="10 lesson">
       <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1671730955279" duration="993000" />
       <workItem from="1676304495058" duration="660000" />
       <workItem from="1676367750538" duration="294000" />
-      <workItem from="1676368179722" duration="2456000" />
+      <workItem from="1676368179722" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="1 lesson">
       <created>1671731380440</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676368950351</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10 lesson">
+      <created>1676371662866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371662866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
     <MESSAGE value="1 lesson" />
     <MESSAGE value="8 lesson" />
     <MESSAGE value="9 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 lesson" />
+    <MESSAGE value="10 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 lesson" />
   </component>
 </project>
