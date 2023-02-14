@@ -7,35 +7,6 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:property-placeholder location="musicPlayer.properties"></context:property-placeholder>
+        <context:component-scan base-package="by.grinuk.springcourse"/>
 
-    <!--тут про Жизненный цикл бина(init and destroy (так же существует метод создания factory)) и метод синглтон-->
-    <bean id="musicBean1"
-          class="by.grinuk.springcourse.RockMusic">
-    </bean>
-    <bean id="musicBean2"
-          class="by.grinuk.springcourse.ClassicalMusic"
-    init-method="doMyInit"
-    destroy-method="doMyDestroy">
-    </bean>
-    <bean id="musicBean3"
-          class="by.grinuk.springcourse.RapMusic">
-    </bean>
-
-
-    <!--тут про область видимости бинов и методе prototype-->
-    <bean id="musicPlayer"
-          class="by.grinuk.springcourse.MusicPlayer"
-          scope="prototype">
-        <property name="musicList" >
-            <list>
-                <ref bean="musicBean1"/>
-                <ref bean="musicBean2"/>
-                <ref bean="musicBean3"/>
-            </list>
-        </property>
-
-        <property name="name" value="${musicPlayer.name}"></property>
-        <property name="volume" value="${musicPlayer.volume}"></property>
-    </bean>
 </beans>

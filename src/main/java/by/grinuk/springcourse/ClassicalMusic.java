@@ -1,18 +1,12 @@
 package by.grinuk.springcourse;
 
-public class ClassicalMusic implements Music{
+import org.springframework.stereotype.Component;
 
-    public void doMyInit(){
-        System.out.println("Doing my initialization");
-    }
-
-    public void doMyDestroy(){
-        System.out.println("Doing my distraction");
-    }
-
-
+//если у компонента нет id то id будет название класса с маленькой буквы
+@Component
+public class ClassicalMusic implements Music {
     @Override
     public String getSong() {
-        return "Hungarial Rhapsody";
+        return "Hungarian Rhapsody";
     }
 }

@@ -1,8 +1,11 @@
 package by.grinuk.springcourse;
 
-public class RockMusic implements Music{
+import org.springframework.stereotype.Component;
+
+@Component("musicBean")
+public class RockMusic implements Music {
     @Override
     public String getSong() {
-        return "Rock Music";
+        return "Wind cries Mary";
     }
 }
