@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="8 lesson">
+    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="9 lesson">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/RapMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
       <workItem from="1671730955279" duration="993000" />
       <workItem from="1676304495058" duration="660000" />
       <workItem from="1676367750538" duration="294000" />
-      <workItem from="1676368179722" duration="640000" />
+      <workItem from="1676368179722" duration="2456000" />
     </task>
     <task id="LOCAL-00001" summary="1 lesson">
       <created>1671731380440</created>
@@ -94,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675971433134</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="9 lesson">
+      <created>1676368950351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676368950351</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 lesson" />
     <MESSAGE value="8 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 lesson" />
+    <MESSAGE value="9 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="9 lesson" />
   </component>
 </project>
