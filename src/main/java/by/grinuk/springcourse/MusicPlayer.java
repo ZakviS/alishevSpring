@@ -10,6 +10,7 @@ public class MusicPlayer {
 
     private Music music1;
     private Music music2;
+    //Type musicType;
 
     @Autowired
     public MusicPlayer(@Qualifier("classicalMusic") Music music1, @Qualifier("musicBean") Music music2) {
@@ -18,6 +19,14 @@ public class MusicPlayer {
     }
 
     public void playMusic() {
-        System.out.println("Playing: " + music1.getSong() + ", " + music2.getSong());
+        int i = (int) (Math.random() * 2);
+        Type[] musicType = Type.values();
+        if (musicType[i].toString().equals("CLASSICAL")){
+            System.out.println("Playing: " + music1.getSong());
+        }
+        else{
+            System.out.println("Playing: " + music2.getSong());
+
+        }
     }
 }

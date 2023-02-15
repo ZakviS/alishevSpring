@@ -4,8 +4,14 @@ import org.springframework.stereotype.Component;
 
 @Component("musicBean")
 public class RockMusic implements Music {
+    String[] song = new String[]{"firstR","secondR","thirdR"};
+    int i;
+    public void rand(){
+        i = (int) (Math.random() * 3);
+    }
     @Override
     public String getSong() {
-        return "Wind cries Mary";
+        rand();
+        return song[i];
     }
 }
