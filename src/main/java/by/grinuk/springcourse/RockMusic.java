@@ -2,7 +2,7 @@ package by.grinuk.springcourse;
 
 import org.springframework.stereotype.Component;
 
-@Component("musicBean")
+
 public class RockMusic implements Music {
     String[] song = new String[]{"firstR","secondR","thirdR"};
     int i;

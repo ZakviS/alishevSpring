@@ -8,8 +8,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 //если у компонента нет id то id будет название класса с маленькой буквы
-@Component
-@Scope("prototype")
+
 public class ClassicalMusic implements Music {
     @PostConstruct
     public void doMyInit(){
