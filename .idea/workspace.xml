@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="12 lesson дз">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/ClassicalMusic.java" afterDir="false" />
+    <list default="true" id="ccb0e5dd-2e3c-4b31-8f0a-a545e2da9b59" name="Changes" comment="13 lesson">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/JazzMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/grinuk/springcourse/Type.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <workItem from="1672855583810" duration="1410000" />
       <workItem from="1672901729828" duration="410000" />
       <workItem from="1676487045264" duration="4323000" />
-      <workItem from="1676727682606" duration="4127000" />
+      <workItem from="1676727682606" duration="5333000" />
     </task>
     <task id="LOCAL-00001" summary="1 lesson">
       <created>1671731380440</created>
@@ -163,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676732571440</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="13 lesson">
+      <created>1676810603254</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676810603254</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +204,7 @@
     <MESSAGE value="6.3 lesson" />
     <MESSAGE value="6.4 lesson" />
     <MESSAGE value="12 lesson дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="12 lesson дз" />
+    <MESSAGE value="13 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 lesson" />
   </component>
 </project>

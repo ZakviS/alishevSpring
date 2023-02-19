@@ -5,6 +5,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
+import java.util.Arrays;
+import java.util.List;
+
 @Configuration
 
 @PropertySource("classpath:musicPlayer.properties")
@@ -20,9 +23,21 @@ public class SpringConfig {
     }
 
     @Bean
-    public MusicPlayer musicPlayer(){
-        return new MusicPlayer(rockMusic(),classicalMusic());
+    public JazzMusic jazzMusic(){
+        return new JazzMusic();
     }
+
+    @Bean
+    public List<Music> musiclist(){
+        return Arrays.asList(rockMusic(),classicalMusic(),jazzMusic());
+    }
+
+
+    @Bean
+    public MusicPlayer musicPlayer(){
+        return new MusicPlayer(musiclist());
+    }
+
 
 
 }
